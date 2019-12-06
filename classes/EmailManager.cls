@@ -1,6 +1,5 @@
 public class EmailManager {
  // Testing jenkins  
- // Public method
     public void sendMail(String address, String subject, String body) {
         // Create an email message object
         Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
